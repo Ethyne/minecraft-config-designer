@@ -10,7 +10,7 @@ module "ec2_minecraft" {
   version = "1.0.2"
 
   environment_tag = "Prod"
-  sg_id = "${module.sg_minecraft.sg_id"
+  sg_id = "${module.sg_minecraft.sg_id}"
 }
 
 module "sg_minecraft" {
